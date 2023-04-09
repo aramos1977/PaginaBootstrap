@@ -1,0 +1,42 @@
+Definición de la Grilla de la Pagina Getbootstrap-Dashboard
+
+Barra de Navegación
+La barra de Navegación (Company Name “Nombre de la Empresa”) tiene 3 columnas donde la primera columna ocupa 3 partes de las 12 quedando asi disponibles las otras columnas. 
+La 2da. segunda columna (Search “Buscar”) de búsqueda ocupa 8 espacios
+La última columna (Sign Out “Desconectar”) ocupa 1 de los 12 espacios disponibles y pasa a una 
+tercera fila ocupando los 12 espacios en su total.  
+Ahora Si ponemos la página a prueba reduciendo el tamaño a los 764px la pagina se vuelve 
+Responsive dejando asi a la segunda columna como un menú tipo hamburger. 
+Ejemplo:
+ 
+Cuando la pantalla es pequeña se convierte en una columna donde el (Company Name “Nombre de la Empresa”), la barra de búsqueda y el (Sign Out “Desconectar”) ocupan un tamaño de 2 de las 12 columnas.
+
+Menú lateral
+Ocupa los mismos espacios de la columna de (Company Name “Nombre de la Empresa”) el total de las 3 columnas
+Pero cuando el tamaño de la pantalla es pequeño de 764px, donde pasaran a usar 12 columnas. Creando asi el Menú tipo Hamburger desplegable.
+
+Diagrama y Tabla
+Diagrama tipo tabla utilizando 9 columnas de las 12 dejando asi 3 columnas de las cuales se utilizan en el menú lateral de las 12 columnas disponibles.
+Cuando la pantalla es pequeña de 764px, utiliza la tabla como la gráfica 12 columnas debido a que el menú lateral es tipo Hamburger. 
+
+Listado de Clases Bootstrap usadas en la pagina
+
+-	(Barra de Navegación) Navbar = se utiliza para crear la barra de navegación
+-	(Barra de Navegación - oscura) Navbar - dark = Se utiliza para poner la barra de navegación oscura o dar color negro
+-	(Parte superior pegajosa) Sticky-Top = elemento en la parte superior de la ventana gráfica
+-	(Color Oscuro) bg-dark = dar color oscuro 
+-	(Envoltura) Flex-md-nowrap = Cambia la forma en que los elementos flexibles se envuelven en un contenedor flexible.
+-	(Sombra) Shadow = sirve para darle sombra a los componentes
+-	(Columnas individuales) Col-md-3 = se utiliza para crear columnas individuales
+-	(alternar la barra de navegación) Navbar-toogler = puede elegir fácilmente cuándo mostrar u ocultar elementos particulares.
+-	(ajuste de texto) text-nowrap = se utiliza para evitar que el texto se ajuste a una clase 
+-	(Colapsar) Collapse = se utiliza para mostrar y ocultar contenido expandirse 
+-	(mesas)Table – sm = para hacer más compacto cortando toda la celda la mitad.
+-	(contenedor) container-fluid = que ocupa todo el ancho de la pantalla el 100%
+-	(Elementos no visibles) nav-item = Los elementos de destino que no son visibles se ignorarán y sus elementos de navegación correspondientes, elementos   	como parte de la lista de navegación.
+-	(Punto de interrupción específico) table-responsive = según sea necesario para crear tablas receptivas, a partir de ese punto de interrupción, la 	tabla se comportará normalmente y no se desplazará horizontalmente.
+-	(Anidamiento) btn-group = cuando desee que los menús desplegables se mezclen con una serie de botones.
+-	(activar) active = Se utiliza para activar el elemento
+-	(Justificar el contenido) justify-content-between = se utiliza para cambiar la alineación de los elementos flexibles en el eje principal
+-	(Ocultar elementos) d-none = se utiliza para ocultar los elementos según el tamaño de las pantallas y para cualquier variación de pantalla receptiva.
+
